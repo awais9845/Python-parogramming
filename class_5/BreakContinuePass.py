@@ -60,12 +60,26 @@
 #         continue
 #     print(i)
 
-students = ["awais","musa", "eisa", "waqar", "bilal", "waqas"]
+# students = ["awais","musa", "eisa", "waqar", "bilal", "waqas"]
 
-absent_student = input("Enter the absent student name: ")
+# absent_student = input("Enter the absent student name: ")
 
 
-for i in students:
-    if i == absent_student:
-        continue
-    print(i)
+# for i in students:
+#     if i == absent_student:
+#         continue
+#     print(i)
+
+# pass
+# syntax 
+
+
+# def login_user():
+#     pass
+
+# print("Login system is under development.")
+
+
+def add_student():
+    pass
+print("add student functionality is not developed yet")
