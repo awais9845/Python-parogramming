@@ -110,7 +110,55 @@
 # always give tue or false value 
 
 
-language = "I am learning Python"
+# language = "I am learning Python"
 
-print(language.startswith("am"))
-print(language.endswith("Python"))
+# print(language.startswith("am"))
+# print(language.endswith("Python"))
+
+
+# isdigit()
+# to check wether all the string is digits
+# always give true and false value 
+
+# num = "1344"
+# num1 = "2344k"
+# print(num.isdigit())
+# print(num1.isdigit())
+
+# isalpha()
+# to check wether all the string is alphabet 
+# always give true and false value 
+
+# name = "awais"
+# name1 = "awais1"
+# print(name.isalpha()) #True
+# print(name1.isalpha()) #False
+
+# isalnum()
+# to check wether all the string is is digit and alphate 
+# always give true and false value 
+# no space and other digit is not allowed will give false 
+
+# username = "awais123"
+# username1 = "awais 234" #spaces and special characters are not allowed
+
+# print(username.isalnum()) #True
+# print(username1.isalnum()) #False
+
+
+# .capitalize()
+# used to capatalize only the first letter and the rest remaining is small 
+
+# name = "awias khan"
+# language = "i have learnt python"
+# print(name.capitalize())
+# print(language.capitalize())
+
+# .title 
+# used to convert all the first letter of each word to capital
+
+name = "my name is awais khan."
+print(name.title())
+
+language = "i have learnt the javascript"
+print(language.title())
