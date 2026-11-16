@@ -59,3 +59,58 @@
 
 # bottles = "cook dew fanta sting booster"
 # print(bottles.split())
+
+
+# .join
+# it is opposite to the split 
+# used to combine multiple strings into one string using separator operator 
+
+# students = ["awais", "musa", "eisa"]
+# # language = "I have learnt python"
+# # print(language.split())
+
+# result = " ".join(students)
+# print(result)
+
+# date = ["02", "3", "2026"]
+# print("-".join(date))
+
+# result = "-".join(date)
+# print(result)
+
+
+# .find()
+# used to find the index of a character or a word in a string 
+
+# language = "I have learnt Python"
+
+# result = language.find("Python")
+
+# print(result)
+
+# # python is case sensitive 
+
+# result = language.find("Python")
+# print(result)
+
+
+# .count()
+# used to count how many time a char or word is present
+
+# name = "awais khan"
+
+# print(name.count("khan"))
+
+
+# language = "I have learnt python"
+# print(language.count("python"))
+
+
+# startswith() and endwith()
+# always give tue or false value 
+
+
+language = "I am learning Python"
+
+print(language.startswith("am"))
+print(language.endswith("Python"))
