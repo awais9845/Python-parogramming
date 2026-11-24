@@ -157,8 +157,25 @@
 # .title 
 # used to convert all the first letter of each word to capital
 
-name = "my name is awais khan."
-print(name.title())
+# name = "my name is awais khan."
+# print(name.title())
 
-language = "i have learnt the javascript"
-print(language.title())
+# language = "i have learnt the javascript"
+# print(language.title())
+
+# university work 
+
+# # name = input("enter your name:")
+# # print(name)
+
+# num = input("enter your age ")
+
+# print(num + "1" )
+
+# for i in range(2, 5):
+#     print(i)
+
+
+a = 3 
+b= 4
+print(a, b)
