@@ -176,3 +176,33 @@
 
 # for index, name in enumerate(names):
 #     print(index,  name)
+
+# list concatination
+# used to concate two lists or more together in one list 
+
+# list_1 = [1,2,3]
+# list_2 =[4,5,6]
+# result = list_1 + list_2
+# print(result)
+
+
+
+# list repetition
+# used to repete the list 
+# numbers = [1,2,3,4]
+# print(numbers * 3)
+
+
+numbers = [1,2,3,4]
+# squares = []
+
+# for num in numbers:
+#     squares.append(num ** 2)
+   
+# print(squares)
+
+# squares = [num ** 2 for num in numbers]
+# print(squares)
+
+even_numbers = [num for num in numbers if num % 2 != 0]
+print(even_numbers)
