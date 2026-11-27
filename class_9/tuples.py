@@ -118,7 +118,7 @@
 
 # a =10
 # b = 90
-
+# a = b
 # a , b = b , a
 # print(a)
 # print(b)
@@ -167,7 +167,7 @@
 
 # numbers = (10,20,30,40,50,60,70,40,80,90,100)
 
-# print(numbers.count(20))
-# print(numbers.index(40,4,10))
+# # print(numbers.count(20))
+# # print(numbers.index(40,4,10))
 
-
+# print(len(numbers))
